@@ -1,6 +1,8 @@
 
 # Expenses Tracker Project
 
+![Microsoft Access](https://img.shields.io/badge/Microsoft_Access-A4373A?logo=microsoft-access&logoColor=white) 
+
 The purpose of this project is to create an expenses tracker to track **Penerimaan (Income)** and **Pengeluaran (Expenditure)**.
 The project uses Microsoft Access as its DBMS
 
