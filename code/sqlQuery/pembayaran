@@ -1,0 +1,3 @@
+SELECT Expenses.ID, Expense_Dim.Kategori AS kategori_id, pembayaran_dim.subkategori AS subkategori_id, Expenses.tarikh, Expenses.amount
+FROM (Expenses INNER JOIN Expense_Dim ON Expenses.kategori_id = Expense_Dim.Expenses_ID) INNER JOIN pembayaran_dim ON Expenses.subkategori_id = pembayaran_dim.ID
+WHERE (((Expenses.kategori_id)=2));
